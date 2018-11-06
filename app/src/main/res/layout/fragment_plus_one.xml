@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="以下demo都需要联合代码查看"
+        android:textColor="#00ff00"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_test10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="return后面跟标签"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Break标签与Continue标签"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="跳转activity" />
+
+            <TextView
+                android:id="@+id/tv_test1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-添加内容并重新返回列表"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-添加内容不返回列表"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-传递两个高阶函数"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-传递不传值的高阶函数"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-结合函数类型"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-多重调用高阶函数,写不来有返回值的代码"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-匿名函数"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_test8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="测试高阶函数-内联函数"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

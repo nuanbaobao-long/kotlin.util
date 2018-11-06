@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_m2_test_inject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="Test Inject"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_m2_test_module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="Test Module"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_m2_test_zhuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="Test ZhuRu"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_m2_test_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="Test Start"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_m2_test_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="Show Date"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</LinearLayout>
